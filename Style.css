@@ -1,0 +1,401 @@
+body{
+    width: 1000px;
+    font-family:Tahoma;
+    font-size: 15px;
+    margin: 0px auto;
+}
+#banner1{
+    height:73px;
+}
+#banner2{
+    height: 270px;
+}
+
+#menu_top{
+    height: 60px;
+    background-color: rgb(202, 0, 22) ;
+}
+#main{
+    margin-top: 3px;
+}
+#main #left{
+    width: 177px;
+    height: 1000px;
+    float: left;
+    margin-right: 5px;
+}
+#main #between{
+    width: 630px;
+    height: 1000px;
+    float: left;
+    border: solid 0.3px rgb(102, 101, 101);
+    margin-right: 5px;
+}
+#main #right{
+    width: 178px;
+    height: 1000px;
+    background-color: white;
+    float: right;
+    border: solid 0.3px rgb(102, 101, 101);
+}
+#footer{
+    background-color: rgb(2, 31, 87);
+    height: 100px;
+    width: 1000px;
+    clear: left;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    padding: 0px 40px 0px 40px;
+    border-right: 0.1px solid rgb(102, 101, 101) ;
+}
+#menu_top ul li a:hover{
+    color: black !important;
+}
+#menu_top ul li a.active{
+    background-color:rgb(136, 31, 31);
+}
+#search_bar{
+    height:40px;
+    background-color: rgb(2, 31, 87);
+    overflow: hidden;
+}
+#search_bar #search{
+    float: right;
+}
+#search_bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+#search_bar #search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+#search_bar #search button:hover {
+    background: rgb(175, 173, 173);
+  }
+#search_bar #chaomung{
+    line-height: 40px;
+    color:rgb(202, 0, 22) ;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    float: left;
+}
+
+#main #left .danhmuc ul{
+    margin: 0px;
+    padding: 0px;
+    margin: -13px 0px 0px 0px;
+}
+.danhmuc{
+    border: solid 0.3px rgb(102, 101, 101);
+    height: auto;
+}
+#main #left .danhmuc ul li {
+    list-style: none;
+}
+#main #left .danhmuc ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    background: rgb(254,141,49) url(/images/icon.jpg) no-repeat 6px;
+    text-indent: 25px;
+    color: white;
+
+}
+#main #left .quangcao{
+    clear: left;
+}
+
+#between .sanpham .sanpham1{
+    width: 195px;
+    height: 170px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 0.3px rgb(102, 101, 101);
+    padding-top: 5px;
+    margin-bottom: 130px;
+}
+#between .sanpham .sanpham2{
+    width: 195px;
+    height: 170px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 0.3px rgb(102, 101, 101);
+    padding-top: 5px;
+    margin-bottom: 130px;
+}
+#between .sanpham .sanpham1 .img{
+    margin: 5px 5px 5px 5px;
+}
+#between .sanpham .tensanpham{
+    color: blue;
+}
+#between .sanpham .gia{
+    color:  rgb(204, 0, 25);
+    margin-top: -10px;
+}
+#between .sanpham input{
+    border-radius: 5px;
+}
+
+#main #right .hotro{ 
+    color: white;
+    font-weight:normal ;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+.hotline1{
+    margin-top:-10px;
+    text-align: center;
+
+}
+.hotline1 p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.hotline2{
+    margin-top:-14px;
+    text-align: center;
+}
+.hotline2 p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#main #right .banchay h4{
+    text-align: center;
+    color: blue;
+}#main #right .banchay .listbanchay img{
+    margin-left: 30px;
+}
+#banner1{
+    height:73px;
+}
+#banner2{
+    height: 270px;
+}
+
+#menu_top{
+    height: 60px;
+    background-color: rgb(204, 0, 25);
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    padding: 0px 40px 0px 40px;
+    border-right: 0.1px solid rgb(102, 101, 101) ;
+}
+#menu_top ul li a:hover{
+    color: black !important;
+}
+#menu_top ul li a.active{
+    background-color:rgb(136, 31, 31);
+}
+#search_bar{
+    height:40px;
+    background-color: rgb(2, 31, 87);
+    overflow: hidden;
+}
+#search_bar #search{
+    float: right;
+}
+#search_bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+#search_bar #search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+#search_bar #search button:hover {
+    background: rgb(175, 173, 173);
+  }
+#search_bar #chaomung{
+    line-height: 40px;
+    color:rgb(202, 0, 22) ;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    float: left;
+}
+#main{
+    margin-top: 3px;
+}
+#main #left{
+    width: 177px;
+    height: 1000px;
+    float: left;
+    margin-right: 5px;
+}
+#main #left .danhmuc ul{
+    margin: 0px;
+    padding: 0px;
+    margin: -13px 0px 0px 0px;
+}
+.danhmuc{
+    border: solid 0.3px rgb(102, 101, 101);
+    height: auto;
+    margin-bottom: 10px;
+}
+#main #left .danhmuc ul li {
+    list-style: none;
+}
+#main #left .danhmuc ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    background: rgb(254,141,49) url(/images/icon.jpg) no-repeat 6px;
+    text-indent: 25px;
+    color: white;
+
+}
+#main #left .quangcao{
+    margin-top: -10px;
+}
+#main #between{
+    width: 630px;
+    height: 1000px;
+    float: left;
+    border: solid 0.3px rgb(102, 101, 101);
+    margin-right: 5px;
+}
+#between .sanpham .sanpham1{
+    width: 195px;
+    height: 170px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 0.3px rgb(102, 101, 101);
+    padding-top: 5px;
+    margin-bottom: 130px;
+}
+#between .sanpham .sanpham2{
+    width: 195px;
+    height: 170px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 0.3px rgb(102, 101, 101);
+    padding-top: 5px;
+    margin-bottom: 130px;
+}
+#between .sanpham .sanpham1 .img{
+    margin: 5px 5px 5px 5px;
+}
+#between .sanpham .tensanpham{
+    color: blue;
+    margin-top: 70px;
+}
+#between .sanpham .gia{
+    color: rgb(202, 0, 22) ;
+    margin-top: -10px;
+}
+#between .sanpham input{
+    border-radius: 5px;
+}
+#main #right .hotro{ 
+    color: white;
+    font-weight:normal ;
+    height: 40px;
+    background:rgb(202, 0, 22) ;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+.hotline1{
+    margin-top:-10px;
+    text-align: center;
+
+}
+.hotline1 p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.hotline2{
+    margin-top:-14px;
+    text-align: center;
+}
+.hotline2 p{
+    text-align: center;
+    margin-top: 0px;
+}
+#main #right .banchay h4{
+    text-align: center;
+    color: blue;
+}#main #right .banchay .listbanchay img{
+    margin-left: 30px;
+}
+
+#main #right .banchay .listbanchay{
+    overflow: scroll;
+    height: 300px;
+}
+#main #right .banchay {
+    height: 340px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+h3 {
+    color: white;
+    font-weight:normal ;
+    height: 40px;
+    background:rgb(202, 0, 22) ;
+    margin-top: 0px;
+    line-height: 40px;
+    font-size: 14px;
+    text-indent: 15px;
+}
+
+#footer p{
+    padding-top: 3px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: -10px;
+    text-align: center;
+}
